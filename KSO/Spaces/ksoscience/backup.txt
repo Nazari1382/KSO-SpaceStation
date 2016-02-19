@@ -1,0 +1,39 @@
+INTERNAL
+{
+	name = ksoscience
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = LabSeat1
+		portraitCameraName = seat1cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = LabSeat2
+		portraitCameraName = seat2cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalCameraSwitch
+		colliderTransformName = triggermicroscope
+		cameraTransformName = Microscope_Camera
+	}
+	MODULE
+	{
+		name = InternalCameraSwitch
+		colliderTransformName = allkerbalslab
+		cameraTransformName = modulecamlab
+	}
+MODULE
+{
+    name = JSIActionGroupSwitch
+    animationName = Take001
+    switchTransform = triggerlap
+    actionName = dummy
+
+}
+
+}

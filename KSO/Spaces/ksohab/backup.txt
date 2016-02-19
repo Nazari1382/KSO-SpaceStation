@@ -1,0 +1,77 @@
+INTERNAL
+{
+	name = ksohabitat
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = Habitat1
+		portraitCameraName = hab1cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = Habitat2
+		portraitCameraName = hab2cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = Habitat3
+		portraitCameraName = hab3cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = Habitat4
+		portraitCameraName = hab4cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalSeat
+		seatTransformName = Habitat5
+		portraitCameraName = hab5cam
+		allowCrewHelmet = false
+	}
+	MODULE
+	{
+		name = InternalCameraSwitch
+		colliderTransformName = allkerbalshab
+		cameraTransformName = modulecamhab
+	}
+
+MODULE
+{
+    name = JSIActionGroupSwitch
+    animationName = Take001
+    switchTransform = triggerlap
+    actionName = dummy
+
+}
+
+//MODULE
+//{
+//   name = JSIActionGroupSwitch
+//    animationName = secondlaptop
+//    switchTransform = triggerlap2
+//    actionName = dummy
+//}
+	PROP
+	{
+		name = KSOS_IVA
+		position = 1.402163E-14,0,-4.4
+		rotation = 0,0,0,1
+		scale = 1,1,1
+	}
+
+	PROP
+	{
+		name = RPMKSOlaptop
+		position = 0.2088839,-0.2354257,-0.7047739
+		rotation = -2.378178E-14,-1,8.42937E-08,-1.311342E-07
+		scale = 1.000001,1,1.000001
+	}
+}
